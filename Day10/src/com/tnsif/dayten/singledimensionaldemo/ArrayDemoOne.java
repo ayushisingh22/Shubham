@@ -3,7 +3,6 @@ package com.tnsif.dayten.singledimensionaldemo;
 
 class ArrayOperations
 {
-	
 	//print int array
 	static void printArray(int[] arr)
 	{
@@ -11,10 +10,8 @@ class ArrayOperations
 			System.out.print(arr[i] + "\t");
 			System.out.println();
 		}
-	}
-	
+	}	
 	//varible argument function
-	
 	public static int getSum(int... n)
 	{
 		int sum=0;
@@ -38,15 +35,12 @@ class ArrayOperations
 		return count;
 	}
 	
-	//count no. of even elements
-	
+	//count no. of even elements	
 	public static int getEvenCount(int b[])
 	{
 		return b.length-getOddCount(b);
 	}
 }
-
-
 
 public class ArrayDemoOne {
 
@@ -84,10 +78,6 @@ public class ArrayDemoOne {
 		System.out.println("-----------------------------------");
 
 		int c[];
-		//ArrayOperations.printArray(c);  CTE
-		
-		
-		
+		//ArrayOperations.printArray(c);  CTE	
 	}
-
 }
