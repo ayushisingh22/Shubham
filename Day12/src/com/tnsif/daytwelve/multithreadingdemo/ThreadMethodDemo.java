@@ -1,6 +1,6 @@
 package com.tnsif.daytwelve.multithreadingdemo;
 
-public class ThreadMethodsDemo {
+public class ThreadMethodDemo {
 
 	public static void main(String[] args) {
 
